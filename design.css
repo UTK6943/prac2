@@ -1,0 +1,40 @@
+.intro-background{
+  background: linear-gradient(300deg, #552619, #fbeae7);
+  background-size: 180% 180%;
+  /* animation: gradient-animation 18s ease infinite; */
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #552619, #fbeae7);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#shayari{
+  background-image:url(../images/img14.jpg);
+}
+
+.dp{
+  border-radius: 50%;
+}
+
+.caro{
+  width: 100%;
+}
+
+.btn{
+  background-color: red;
+  border: none;
+}
